@@ -4,7 +4,7 @@ class CreateCostumeStore < ActiveRecord::Migration[5.2]
  def change
     create_table :costumes do |t|
       t.string :name
-      t.decimal :price
+      t.decimal :location
       t.string :size
       t.string :image_url
     end
